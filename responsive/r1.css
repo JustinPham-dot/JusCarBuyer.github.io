@@ -1,0 +1,152 @@
+/* Responsive CSS */
+
+/* Small devices (phones, 768px and below) */
+@media only screen and (max-width: 866px) {
+    .container {
+        flex-direction: column; /* Stack items vertically for small screens */
+        align-items: center; /* Center items horizontally */
+        margin-bottom: 20px;
+    }
+
+    nav {
+        margin-top: 10px; /* Adjust margin for smaller screens */
+    }
+
+    nav ul {
+        padding-left: 0; /* Remove default padding */
+    }
+
+    nav {
+        margin-top: 10px; /* Adjust margin for smaller screens */
+    }
+
+    nav ul li a{
+        display: block;
+        line-height: 1.3;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hero h1 {
+        font-size: 36px; /* Adjust font size for smaller screens */
+    }
+
+    .hero p {
+        font-size: 16px; /* Adjust font size for smaller screens */
+    }
+
+    .hero img {
+        height: auto; /* Maintain aspect ratio for hero image */
+    }
+
+
+    .flex-items{
+        flex-direction: column; /* Change flex direction for smaller screens */
+    }
+
+    .flex-items > div {
+        margin-bottom: 20px; /* Add margin between flex items for smaller screens */
+    }
+
+    .Team {
+        height: 600px;
+    }
+
+    .solutions {
+        padding-bottom: 40px;
+    }
+
+    .solutions .row {
+        flex-direction: column; /* Stack columns vertically for small screens */
+        align-items: center; /* Center items horizontally */
+    }
+
+    .column-1 {
+        text-align: center; /* Center text within columns */
+    }
+
+
+    .footer {
+        height: auto; /* Allow footer content to wrap on smaller screens */
+        margin-top: 20px;
+    }
+
+    .Team {
+        height: auto; /* Allow height to adjust based on content */
+    }
+
+    .Team > div {
+        flex-direction: column; /* Stack team members vertically on small screens */
+        margin: 0; /* Remove horizontal margin */
+        margin-bottom: 20px; /* Add vertical margin between team members */
+    }
+
+    .Team img {
+        max-width: 100%; /* Make team member images responsive */
+        margin-bottom: 10px; /* Add space between image and text */
+    }
+
+    .Team h4,
+    .Team p {
+        padding: 0; /* Remove padding */
+    }
+
+
+    .hero h1 {
+        line-height: 1.5;
+    }
+
+    .solutions h4 {
+        margin-top: 25px;
+    }
+
+    .solutions p {
+        width: 300px;
+    }
+}
+
+
+/* Responsive CSS */
+
+/* Small devices (phones, 768px and below) */
+@media only screen and (min-width: 866px)  and (max-width: 1024px){
+
+    .solutions .row {
+        flex-direction: row; /* Stack columns vertically for small screens */
+        align-items: center; /* Center items horizontally */
+    }
+
+    .column-1 {
+        text-align: center; /* Center text within columns */
+        height: fit-content;
+    }
+
+    .column-1 h2 {
+        color: #1B1A55;
+        margin: 0;
+    }
+    
+    .column-1 p {
+        color: #1B1A55;
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 0;
+    }
+    
+    .column-1 h4 {
+        margin-top: 0;
+        color: #1B1A55;
+    }
+
+    .column-1 .btn {
+        background-color: #1B1A55; 
+        color: #fff; 
+        text-decoration: none;
+        border-radius: 5px;
+    }
+    .img-2 {
+        display: block;
+        object-fit: contain;
+    }
+
+}

@@ -1,0 +1,118 @@
+.header {
+    display: grid;
+    grid-template-areas: 
+    'logo logo navbar'
+}
+
+.main {
+    display: grid;
+    grid-template-areas: 
+    'hero hero hero'
+    'about about about'
+    'img-1 content'
+    'team team team'
+    'content img-1'
+    'footer footer footer';
+}
+
+
+.logo {
+    grid-area: logo;
+    text-align: center;
+}
+
+.navbar-content {
+    grid-area: navbar;
+    
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+li {
+    padding-right: 20px;
+}
+
+.hero {
+    grid-area: hero;
+    text-align: center;
+    height: 500px;
+    justify-content: center;
+    padding-top: 200px;
+}
+
+#about {
+    grid-area: about;
+    margin: 76px 0;
+}
+
+.flex-items {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    text-align: center;
+    margin: 20px 0;
+}
+
+.column-1 img {
+    grid-area: img-1;
+    background-size: cover; 
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+}
+
+.img-3, .img-2{
+    background-size: contain; 
+    background-position: center; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.column.content {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+}
+.flex-columns .row {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    place-items: center;
+    margin: 50px 0;
+}
+
+.flex-columns-1 .row {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    place-items: center
+}
+
+.flex-reverse .row{
+    direction: rtl;
+}
+.Team {
+    grid-area: team;
+    text-align: center;
+    height: 650px;
+}
+
+.footer {
+    grid-area: footer;
+    text-align: center;
+    height: 100px;
+    align-self: center;
+    padding-top: 50px;
+}
+
+
+
+
+
+

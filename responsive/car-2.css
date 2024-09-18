@@ -1,0 +1,389 @@
+/* responsive/car-2.css */
+@media only screen and (max-width: 550px) {
+    .container {
+        display: flex;
+        flex-direction: column; /* Stack items vertically for small screens */
+        align-items: center; /* Center items horizontally */
+        margin-bottom: 20px;
+    }
+
+    .logo {
+        margin-bottom: 20px; /* Add margin below the logo */
+    }
+
+    nav {
+        margin-top: 10px; /* Adjust margin for smaller screens */
+    }
+
+    nav ul {
+        padding-left: 0; /* Remove default padding */
+    }
+
+    nav ul li a{
+        display: flex;
+        line-height: 1.3;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hero h1 {
+        font-size: 36px; /* Adjust font size for smaller screens */
+    }
+
+    .hero p {
+        font-size: 16px; /* Adjust font size for smaller screens */
+    }
+
+    .hero img {
+        height: auto; /* Maintain aspect ratio for hero image */
+    }
+
+    .flex-items{
+        flex-direction: column; /* Change flex direction for smaller screens */
+    }
+
+    .flex-items > div {
+        margin-bottom: 20px; /* Add margin between flex items for smaller screens */
+    }
+
+    .Team {
+        height: 600px;
+    }
+
+    .solutions {
+        padding-bottom: 40px;
+    }
+
+    .solutions .row {
+        flex-direction: column; /* Stack columns vertically for small screens */
+        align-items: center; /* Center items horizontally */
+    }
+
+    .column-1 {
+        text-align: center; /* Center text within columns */
+    }
+
+    .footer {
+        height: auto; /* Allow footer content to wrap on smaller screens */
+        margin-top: 20px;
+    }
+
+    .group {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+        height: auto;
+    }
+
+    .car {
+        margin-bottom: 30px; /* Add margin between service items */
+    }
+
+    .car h3 {
+        font-size: 24px; /* Adjust font size for service titles */
+    }
+
+    .car p {
+        font-size: 14px; /* Adjust font size for service descriptions */
+    }
+
+    .white-box {
+        width: 300px; /* Reduce padding for smaller screens */
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .container {
+        display: flex;
+        flex-direction: column; /* Stack items vertically for small screens */
+        align-items: center; /* Center items horizontally */
+        margin-bottom: 20px;
+    }
+
+    .logo {
+        margin-bottom: 20px; /* Add margin below the logo */
+    }
+
+    nav {
+        margin-top: 10px; /* Adjust margin for smaller screens */
+    }
+
+    nav ul {
+        padding-left: 0; /* Remove default padding */
+    }
+
+    nav ul li a{
+        display: flex;
+        line-height: 1.3;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hero h1 {
+        font-size: 36px; /* Adjust font size for smaller screens */
+    }
+
+    .hero p {
+        font-size: 16px; /* Adjust font size for smaller screens */
+    }
+
+    .hero img {
+        height: auto; /* Maintain aspect ratio for hero image */
+    }
+
+    .flex-items{
+        flex-direction: column; /* Change flex direction for smaller screens */
+    }
+
+    .flex-items > div {
+        margin-bottom: 20px; /* Add margin between flex items for smaller screens */
+    }
+
+    .Team {
+        height: 600px;
+    }
+
+    .solutions {
+        padding-bottom: 40px;
+    }
+
+    .solutions .row {
+        flex-direction: column; /* Stack columns vertically for small screens */
+        align-items: center; /* Center items horizontally */
+    }
+
+    .column-1 {
+        text-align: center; /* Center text within columns */
+    }
+
+    .footer {
+        height: auto; /* Allow footer content to wrap on smaller screens */
+        margin-top: 20px;
+    }
+
+    .group {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+        height: auto;
+    }
+
+    .car {
+        margin-bottom: 30px; /* Add margin between service items */
+    }
+
+    .car h3 {
+        font-size: 24px; /* Adjust font size for service titles */
+    }
+
+    .car p {
+        font-size: 14px; /* Adjust font size for service descriptions */
+    }
+
+    .white-box {
+        width: 300px; /* Reduce padding for smaller screens */
+    }
+}
+
+@media only screen and (min-width: 551px) and (max-width: 768px) {
+    .container {
+        display: flex;
+        flex-direction: column; /* Stack items vertically for small screens */
+        justify-content: center ; /* Center items horizontally */
+        margin-bottom: 20px;
+    }
+
+    nav {
+        margin-top: 10px; /* Adjust margin for smaller screens */
+    }
+
+    nav ul {
+        padding-left: 0; /* Remove default padding */
+    }
+
+    nav {
+        margin-top: 10px; /* Adjust margin for smaller screens */
+    }
+
+    nav ul li a{
+        display: block;
+        line-height: 1.3;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hero h1 {
+        font-size: 36px; /* Adjust font size for smaller screens */
+    }
+
+    .hero p {
+        font-size: 16px; /* Adjust font size for smaller screens */
+    }
+
+    .hero img {
+        height: auto; /* Maintain aspect ratio for hero image */
+    }
+
+    .flex-items{
+        flex-direction: column; /* Change flex direction for smaller screens */
+    }
+
+    .flex-items > div {
+        margin-bottom: 20px; /* Add margin between flex items for smaller screens */
+    }
+
+    .Team {
+        height: 600px;
+    }
+
+    .solutions {
+        padding-bottom: 40px;
+    }
+
+    .solutions .row {
+        flex-direction: column; /* Stack columns vertically for small screens */
+        align-items: center; /* Center items horizontally */
+    }
+
+    .column-1 {
+        text-align: center; /* Center text within columns */
+    }
+
+    .footer {
+        height: auto; /* Allow footer content to wrap on smaller screens */
+        margin-top: 20px;
+    }
+
+    .group {
+        display: grid;
+        grid-template-areas: 
+        'car-1 car-2 car-3'
+        'car-4 car-5 car-6'
+        'car-7 car-8 car-9';
+    }
+
+    .car { /* Two items per row with some margin between */
+        margin-bottom: 30px; /* Add margin between service items */
+        height: fit-content;
+    }
+
+    .car h3 {
+        font-size: 24px; /* Adjust font size for service titles */
+    }
+
+    .car p {
+        font-size: 14px; /* Adjust font size for service descriptions */
+    }
+
+    .car button {  
+        width: auto; /* Make buttons 50% width with 20px margin */
+        margin-bottom: auto;
+    }
+
+    .img-8, img-9 {
+        height: auto
+    }
+    
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1068px) {
+    .container {
+        display: flex;
+        flex-direction: column; /* Stack items vertically for small screens */
+        justify-content: center ; /* Center items horizontally */
+        margin-bottom: 20px;
+    }
+
+    nav {
+        margin-top: 10px; /* Adjust margin for smaller screens */
+    }
+
+    nav ul {
+        padding-left: 0; /* Remove default padding */
+    }
+
+    nav {
+        margin-top: 10px; /* Adjust margin for smaller screens */
+    }
+
+    nav ul li a{
+        display: block;
+        line-height: 1.3;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hero h1 {
+        font-size: 36px; /* Adjust font size for smaller screens */
+    }
+
+    .hero p {
+        font-size: 16px; /* Adjust font size for smaller screens */
+    }
+
+    .hero img {
+        height: auto; /* Maintain aspect ratio for hero image */
+    }
+
+    .flex-items{
+        flex-direction: column; /* Change flex direction for smaller screens */
+    }
+
+    .flex-items > div {
+        margin-bottom: 20px; /* Add margin between flex items for smaller screens */
+    }
+
+    .Team {
+        height: 600px;
+    }
+
+    .solutions {
+        padding-bottom: 40px;
+    }
+
+    .solutions .row {
+        flex-direction: column; /* Stack columns vertically for small screens */
+        align-items: center; /* Center items horizontally */
+    }
+
+    .column-1 {
+        text-align: center; /* Center text within columns */
+    }
+
+    .footer {
+        height: auto; /* Allow footer content to wrap on smaller screens */
+        margin-top: 20px;
+    }
+
+    .group {
+        display: grid;
+        grid-template-areas: 
+        'car-1 car-2 car-3'
+        'car-4 car-5 car-6'
+        'car-7 car-8 car-9';
+    }
+
+    .car { /* Two items per row with some margin between */
+        margin-bottom: 30px; /* Add margin between service items */
+    }
+
+    .car h3 {
+        font-size: 24px; /* Adjust font size for service titles */
+    }
+
+    .car p {
+        font-size: 14px; /* Adjust font size for service descriptions */
+    }
+
+    .car button {
+        margin: 0 0 10px; /* Adjusted margin for tablet */
+        width: auto; /* Make buttons 50% width with 20px margin */
+    }
+
+    .img-8, img-9 {
+        height: auto
+    }
+}
+
