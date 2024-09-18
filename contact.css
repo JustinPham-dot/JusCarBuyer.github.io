@@ -1,0 +1,171 @@
+.contact {
+    width: auto;
+}
+
+.contact .column-2 {
+    border-radius: 25px;
+    background-color: #fff;
+}
+
+.form-control #feedback {
+    padding-bottom: 50px;
+}
+
+.flex-columns h2 {
+    font-size: 32px;
+    color: #fff;
+    padding-left: 20px;
+}
+
+.column-2.contact-2 {
+    background-color: #999;
+
+}
+
+@media only screen and (max-width: 550px) {
+    .container {
+        display: flex;
+        flex-direction: column; /* Stack items vertically for small screens */
+        justify-content: center ; /* Center items horizontally */
+        margin-bottom: 20px;
+    }
+
+    nav {
+        margin-top: 10px; /* Adjust margin for smaller screens */
+    }
+
+    nav ul {
+        padding-left: 0; /* Remove default padding */
+    }
+
+    nav {
+        margin-top: 10px; /* Adjust margin for smaller screens */
+    }
+
+    nav ul li a{
+        display: block;
+        line-height: 1.3;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .callback-form {
+        width: 250px;
+        padding: 20px;
+        margin: auto;
+    }
+    
+    .contact {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .callback-form label {
+        display: block;
+        margin-bottom: 5px;
+        width: auto;
+    }
+    
+    
+    .callback-form .form-control {
+       width: fit-content;
+    }
+    
+    .callback-form input {
+        font-family: "Rubik",sans-serif;
+        width: 200px;
+        padding: 4px;
+        height: 40px;
+        border: #999999 1px solid;
+    }
+    
+    .callback-form input:focus {
+        outline-color: #999;
+    }
+    .callback-form .btn {
+        padding: 12px;
+        margin-top: 20px;
+        width: 100px;
+    }
+
+    .footer {
+        width: auto;
+    }
+}
+
+@media only screen and (min-width: 551px) and (max-width: 1068px) {
+
+    .container {
+        display: flex;
+        flex-direction: column; /* Stack items vertically for small screens */
+        justify-content: center ; /* Center items horizontally */
+        margin-bottom: 20px;
+    }
+
+    nav {
+        margin-top: 10px; /* Adjust margin for smaller screens */
+    }
+
+    nav ul {
+        padding-left: 0; /* Remove default padding */
+    }
+
+    nav {
+        margin-top: 10px; /* Adjust margin for smaller screens */
+    }
+
+    nav ul li a{
+        display: block;
+        line-height: 1.3;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .callback-form {
+        width: 600px;
+        padding: 20px;
+        margin: auto;
+    }
+    
+    .contact {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    
+    .callback-form label {
+        display: block;
+        margin-bottom: 5px;
+        width: auto;
+    }
+    
+    
+    .callback-form .form-control {
+       width: fit-content;
+    }
+    
+    .callback-form input {
+        font-family: "Rubik",sans-serif;
+        width: 585px;
+        padding: 4px;
+        height: 40px;
+        border: #999999 1px solid;
+    }
+    
+    .callback-form input:focus {
+        outline-color: #999;
+    }
+    .callback-form .btn {
+        padding: 12px;
+        margin-top: 20px;
+        width: 100px;
+    }
+
+    .footer {
+        width: auto;
+    }
+}

@@ -1,0 +1,20 @@
+body {
+    background: #6e1315;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    color: #fcf2fc;
+}
+
+.navbar-top ul {
+    list-style-type: none;
+}
+
+.navbar-top li {
+    display: inline;
+    padding: 0 20px;
+}
+

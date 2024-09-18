@@ -1,0 +1,415 @@
+body {
+    justify-content: center; 
+    align-items: center; 
+    height: 100%; 
+    background-color: #070F2B; 
+    color: #BEBDDB;
+    font-family: "Rubik", sans-serif;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo img {
+    height: 80px;
+    width: 300px;
+}
+
+.main-page {
+   color: #fff;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Anta", sans-serif;
+}
+
+nav {
+    margin-top: 20px; 
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 5px; 
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: #BEBDDB;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+  opacity: 0.7;
+}
+
+.hero {
+    position: relative; 
+    background-image: url('/audi/-2055-1664943532.jpg'); 
+    background-size: cover;
+    /* Resize the background image to cover the entire container, even if it has to stretch the image or cut a little bit off one of the edges */
+    background-position: center;
+    height: 668px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff; 
+    margin-bottom: 25px;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.55);
+    
+}
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    line-height: 20.8px;
+    z-index: 0;
+    text-shadow: 0 3px 10px rgb(0 0 0 / 0.5);
+     /* 
+    0: No horizontal displacement.
+    3px: Shadow positioned 3 pixels below the element.
+    10px: 10-pixel blur radius, creating a diffused shadow.
+    rgb(0 0 0 / 0.2): Black color with 20% opacity.
+    */
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #fff;
+    padding: 0;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: #fff;
+    padding: 0;
+}
+
+.btn {
+    padding: 12px 24px;
+    background-color: #1B1A55; 
+    color: #fff; 
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero a{
+    background-color: #fff; 
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: "Anta", sans-serif;
+    font-weight: bold;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #070F2B;
+}
+
+.button:hover {
+    opacity: 0.7;
+}
+
+
+.hero img {
+    margin-top: 20px;
+    width: 100%; 
+    height: 500px;
+}
+
+
+.flex-columns .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    /* It means the flex item will take up 100% of the available space along the main axis. */
+    flex: 1;
+}
+
+.flex-columns .column-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-columns h2 {
+    font-size: 40px;
+
+}
+
+.flex-columns h4 {  
+    margin-bottom: 10px;
+}
+
+.flex-columns p {
+    margin: 20px 0;
+}
+
+.callback-form {
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+}
+
+.contact {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.callback-form label {
+    display: block;
+    margin-bottom: 5px;
+    width: 700px;
+}
+
+
+.callback-form .form-control {
+    margin-bottom: 15px;
+}
+
+.callback-form input {
+    font-family: "Rubik",sans-serif;
+    width: 800px;
+    padding: 4px;
+    height: 40px;
+    border: #999999 1px solid;
+}
+
+.callback-form input:focus {
+    outline-color: #999;
+}
+.callback-form .btn {
+    padding: 12px;
+    margin-top: 20px;
+    width: 100px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 150px;
+    font-family: "Anta", sans-serif;
+}
+.footer a {
+    color: #fff;
+}
+.footer a:hover {
+    color: #999;
+}
+.footer .social > a {
+    margin-right: 30px;
+}
+
+/* Flex items */
+.flex-items {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.flex-items > div {
+    flex: 1;       
+    padding: 20px;
+    text-align: center;
+}
+
+/* About us */
+.icons {
+    padding: 50px 0; 
+    background-color: #070F2B;
+    color: #BEBDDB;
+}
+
+.icons h3 {
+    font-weight: bold;
+    margin-bottom: 20px; 
+    color: #BEBDDB; 
+}
+
+.icons p {
+    font-size: 18px; 
+    line-height: 1.6;
+}
+
+.icons i {
+    background-color: #999999; 
+    color: #fff; 
+    padding: 20px; 
+    border-radius: 50%; 
+    margin-bottom: 30px; 
+    font-size: 36px; 
+}
+
+.icons i + div {
+    margin-top: 15px;
+}
+
+.section-header {
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.section-header h2 {    
+    font-size: 40px;
+    margin: 20px 0;
+}
+
+.solutions {
+    background: #fff;
+}
+
+.flex-reverse .row{
+    flex-direction: row-reverse;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.solutions .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.column-1 img {
+    width: 100%;
+    object-fit: fill;
+
+}
+
+.column-1.content {
+    background: #fff;
+    align-items: center;
+}
+
+
+.column-4 .content {
+    background-color: #fff;
+}
+
+.column-1 h4 {
+    margin-top: 0;
+    color: #1B1A55;
+}
+
+.column-1 h2 {
+    color: #1B1A55;
+    margin-bottom: 15px;
+}
+
+.column-1 p {
+    color: #1B1A55;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+.column-1 h4 {
+    margin-top: 0;
+    color: #1B1A55;
+}
+
+.Team > div {
+    flex: 1; 
+    text-align: center; 
+    margin: 0 10px; 
+}
+
+.Team img {
+    border-radius: 50%;
+    max-width: 50%; 
+}
+
+.Team h4, h2
+.Team p {
+    padding: 10px; 
+    align-items: center;
+}
+
+.Team h4 {
+    font-size: 22px;
+}
+
+.Team p {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+/* Dropdown Button */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content ) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+     /* 
+    0: No horizontal displacement.
+    8px: Shadow positioned 3 pixels below the element.
+    16px: 10-pixel blur radius, creating a diffused shadow.
+    rgb(0 0 0 / 0.2): Black color with 20% opacity.
+    */
+    z-index: 1;
+
+}
+
+.dropdown-content a {
+    color: #3D3B6D;
+    padding: 12px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+.contact .column-2 {
+    border-radius: 25px;
+    background-color: #fff;
+}
+
+
+.Team.section-padding {
+    height: auto;
+}
